@@ -1,1 +1,5 @@
 rootProject.name = 'spring-security'
+include 'section1:section2'
+findProject(':section1:section2')?.name = 'section2'
+include 'section2'
+
